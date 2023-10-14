@@ -1,0 +1,46 @@
+TOOLS:
+  -> https://github.com/maurosoria/dirsearch
+  -> https://github.com/ffuf/ffuf
+
+RECON VIA GOOGLE DORKNG:
+  -> https://www.exploit-db.com/google-hacking-database
+  -> https://pentest-tools.com/information-gathering/google-hacking
+
+GITHUB RECON:
+  -> https://github.com/Vaidik-pandya/Github_recon_dorks/blob/main/gitdork.txt
+
+API KEY EXPLOIT:
+  -> https://github.com/streaak/keyhacks
+
+WORD LIST:
+   -> https://github.com/six2dez/OneListForAll
+   -> https://wordlists.assetnote.io/
+
+WHAT ARE CONSIDERED AS INFORMATN DISCLOURED:
+  -> Private API Keys & Tokens:
+  -> Credentials:
+  -> PII Leakages: Personally identifiable information (PII) is information that, when used alone or with other relevant data, can identify an individual.
+
+SUGGESTIONS:
+	3. Recon on JS Files:
+
+	JS Files are said to be gold mine of information, there is a high chances that there will be a sensitive information like tokens ,
+         api keys, etc There are many tools to get JS Files from a website but the most simple way is via Burp Suite. 
+         In Target Tab of Burpsuite, Right click on host > Engagement Tools > Find Scripts
+	With the above method you will find all the scripts, now you can use search functionality to find sensitive information disclosure.
+
+LEAR MORE ABOUT INFORMATION DISCLOURED HERE
+
+➔ https://infosecwriteups.com/all-about-information-disclosure-5edb5459a514
+
+➔ https://cwe.mitre.org/data/definitions/200.html
+
+➔ https://github.com/ffuf/ffuf
+
+➔ https://www.exploit-db.com/google-hacking-database
+
+➔ https://pentest-tools.com/information-gathering/google-hacking
+
+➔ https://github.com/streaak/keyhacks
+
+➔ https://github.com/cipher387/Dorks-collections-list
